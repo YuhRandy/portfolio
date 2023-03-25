@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: auto 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.main .top{
+    width: 100%;
+    height: 70vh;
+}
+.main .top img{
+    width: 100%;
+    height: 70vh;
+    opacity: .9;
+}
+.main .container{
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    width: 80%;
+    height: 320vh;
+    box-shadow: 0 5px 1px 1px rgb(92, 91, 91);
+}
+.main .container .header{
+    background-image: url(./head.JPG);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+}
+.main .container .header .nav{
+    display: flex;
+    justify-content: space-between;
+}
+.main .container .header .nav label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+.main .container .header .nav .nav-items{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+.main .container .header .nav .nav-items a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.main .container .header .nav .nav-items a:hover{
+    color: rgb(247, 222, 4);
+}
+.main .container .header .welcome{
+    padding: 100px;
+    text-align: center;
+}
+.main .container .header .welcome h1{
+    border: 1px solid rgb(247, 222, 4);
+}
+.main .container .header .welcome h1 span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main .container .about{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 25px 150px;
+}
+.main .container .about .info h2{
+    border-left: 4px solid rgb(247, 222, 4);
+    padding-left: 5px;
+}
+.main .container .about .info .location{
+    color: red;
+}
+.main .container .about .info .btn{
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#hire{
+    width: 100px;
+    height: 5vh;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(87, 86, 77);
+    cursor: pointer;
+    border: 2px solid rgb(87, 86, 77);
+}
+#hire:hover{
+    color: rgb(87, 86, 77);
+    background-color: white;
+}
+#cv{
+    width: 140px;
+    height: 5vh;
+    border-radius: 10px;
+    color: rgb(87, 86, 77);
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid rgb(87, 86, 77);
+}
+#cv:hover{
+    color: white;
+    background-color: rgb(87, 86, 77);
+}
+.main .container .about img{
+    width: 300px;
+    border-radius: 10px;
+}
+.main .container .services{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(219, 215, 215);
+    padding: 25px 30px;
+    background-color: rgb(214, 212, 212);
+}
+.main .container .services h2{
+    padding-left: 5px;
+    padding-right: 20px;
+    color: black;
+    border-left: 4px solid rgb(247, 222, 4);
+}
+.main .container .services .service{
+    width:80%;
+    height: 35vh;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(49, 44, 44);
+}
+.main .container .services .service .icon{
+   font-size: 50px;
+}
+.main .container .services .service span{
+    padding: 50px 10px;   
+}
+.main .container .services .service p{
+    padding: 10px;
+}
+.main .container .portfolio{
+    padding: 20px 80px;
+}
+.main .container .portfolio .nav{
+    display: flex;
+    justify-content: space-between;
+}
+.main .container .portfolio .nav h2{
+    padding-left: 5px;
+    border-left: 4px solid rgb(247, 222, 4);
+}
+.main .container .portfolio .nav .nav-items{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    cursor: pointer;
+}
+.main .container .portfolio .nav .nav-items li:hover{
+    border-bottom: 2px solid rgb(247, 222, 4);
+}
+#projects{
+    width: 100%;
+    height: 40vh;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.main .container .portfolio .projects .project{
+    width:30%;
+    height: 50vh;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(29, 24, 24);
+    margin-top: -2rem;
+}
+.main .container .portfolio .projects .project img{
+    width: 265px;
+    height: 200px;
+}
+.main .container .portfolio .projects .project h3{
+    color: white;
+}
+.main .container .portfolio .projects .project button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid rgb(247, 222, 4);
+    background-color: rgb(247, 222, 4);
+}
+.main .container .portfolio .projects .project button:hover{
+    color: rgb(247, 222, 4);
+    background-color: black;
+}
+.main .container .contact{
+    width: auto;
+    height: 390px;
+    padding: 20px 80px;
+    background-color: rgb(214, 212, 212);
+}
+.main .container .contact h3{
+    padding-left: 5px;
+    border-left: 4px solid rgb(247, 222, 4);
+}
+.main .container .contact .me{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+.main .container .contact .me .message{
+    width: 30%;
+    height: 55vh;
+    padding: 10px;
+}
+.main .container .contact .me .message form input{
+    width: 250px;
+    height: 5vh;
+    border-radius: 4px;
+    padding: 2px 7px;
+}
+.main .container .contact .me .message form textarea{
+    width: 260px;
+    height: 15vh;
+    border-radius: 4px;
+}
+.main .container .contact .me .contact-info p a{
+    color: black;
+    text-decoration: none;
+}
+.main .container .contact .contact-info img{
+    width: 200px;
+    border-radius: 50%;
+}
+.main .footer{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(49, 44, 44);
+    position: absolute;
+    top: 128rem;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
